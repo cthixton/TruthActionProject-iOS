@@ -1,0 +1,1178 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00475827E4E13DDE23FC485A /* AppIcon in Resources */ = {isa = PBXBuildFile; fileRef = 1FACF5A4B2531A20B6D1C018 /* AppIcon */; };
+		03FB2E123E19D79A744DE499 /* GNCustomHeaders.m in Sources */ = {isa = PBXBuildFile; fileRef = 482992C7B6C2BDCE1AA4FE85 /* GNCustomHeaders.m */; };
+		0A91A1DC2FFAD6C575F4E17C /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E91F61AC6799EB0EDFEB93 /* Social.framework */; };
+		0B031CCB07F5AF20277A61D2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CDC1BB2C6E128FDBC2838C3 /* CoreLocation.framework */; };
+		0B31493D8D8ADF9A4468A454 /* GNSwiftUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8A316A28E55C4732EAD51C /* GNSwiftUtilities.swift */; };
+		0BA7E58CD3006E8654AEE3F1 /* LEANTabManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B100B5E2A7D496C4EA1FBA8C /* LEANTabManager.m */; };
+		0D729F4980001A457CE9A759 /* localCache.zip in Resources */ = {isa = PBXBuildFile; fileRef = 6C6F3F113415BA3B3F483495 /* localCache.zip */; };
+		10732D00A4F2FAB46DF9C9CB /* ContextMenuHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1A24410281578F648A74AA /* ContextMenuHandler.swift */; };
+		10C8E3A4A7A0C5B9164E4A79 /* MenuChildNoIcon.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFA375EC00979AEB9B89D9D6 /* MenuChildNoIcon.xib */; };
+		10EB1CE0C19F656C4670CE74 /* GoNativeCore in Frameworks */ = {isa = PBXBuildFile; productRef = 3B9567D0A46ED08B9294425A /* GoNativeCore */; };
+		11152148BC299935828093FC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA9B924B38B9A9538D1202C1 /* QuartzCore.framework */; };
+		11A8FC3241F13570BE36C29B /* iosHeaderImage in Resources */ = {isa = PBXBuildFile; fileRef = 92A1454017E32B4C2171EF53 /* iosHeaderImage */; };
+		12EFD2D51B8FBBCED5D2F73B /* TuistBundle+TruthActionProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D7EC29356299E2A8E6307E /* TuistBundle+TruthActionProject.swift */; };
+		145CAB104B13C2B6E01F010A /* LEANInstallation.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E6C87162DF4B9AACC75FBC /* LEANInstallation.m */; };
+		14DE1572410B481EB1900F6F /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 8131E37EFD1AACFF63AB48B8 /* GTMNSString+HTML.m */; };
+		14FF7E82FB0B3C4D6CB5E27E /* LEANToolbarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B69D2EEFB3216D6528F92691 /* LEANToolbarManager.m */; };
+		1590775CCF429A6CB6B2FDB3 /* iosCustomCSS.css in Resources */ = {isa = PBXBuildFile; fileRef = AF0DFA79CB217879344617FD /* iosCustomCSS.css */; };
+		1697DFABAE4F708622C553A2 /* TuistStrings+TruthActionProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8693B8803CA3D330061A009 /* TuistStrings+TruthActionProject.swift */; };
+		18674DBB162D1F2F493830B4 /* LEANLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B58B49BC01DA1047174655 /* LEANLoginManager.m */; };
+		1A9859A4E846D6937663F203 /* LEANUrlCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E3AC04549EFE269D3ED80942 /* LEANUrlCache.m */; };
+		1B50CAEB885742AC56DD7046 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 666544387F5D9E741EA7EC37 /* CoreGraphics.framework */; };
+		1BB900E1FD4CD809C2269073 /* UIImage+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2D4817EB9EAD34DA4F9090 /* UIImage+REFrostedViewController.m */; };
+		1C0E2E5EA33E4170261C4584 /* BlobDownloader.js in Resources */ = {isa = PBXBuildFile; fileRef = DA882ED06FF033A42E4CEF7F /* BlobDownloader.js */; };
+		2388CD62C74A1FA03124A2A1 /* LEANJsCustomCodeExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 226EE6935750C95F0B64A9A0 /* LEANJsCustomCodeExecutor.m */; };
+		24BC6E6757B2533AE33D9EDB /* custom-icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37B080185633804964C6A4D0 /* custom-icons.ttf */; };
+		25194FE14B1078F76AD59B38 /* CustomMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDB91ED6F0ED5A15EBAD68F /* CustomMenu.swift */; };
+		2A7F34444B94D5F0EC3B6D1B /* LEANConfigUpdater.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E7C6EBA809B2D59B0FBC4A /* LEANConfigUpdater.m */; };
+		2B6F62D327E1C411FA9D8EC0 /* LEANMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C123AEB8DF73E806CF6DAE9C /* LEANMenuViewController.m */; };
+		2D588DDFD972A7ADBBC952C8 /* UIViewController+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 589A179120634304556D9EB7 /* UIViewController+REFrostedViewController.m */; };
+		2EFEFD0D5621ADD0C8B852AD /* TuistAssets+TruthActionProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDEE358C87ACCFD83C1CA28 /* TuistAssets+TruthActionProject.swift */; };
+		2FA2BC9E8210523EA139F03F /* LEANWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 761CDCD7AC7D1B73F581DAD2 /* LEANWebViewController.m */; };
+		342CBC51869C015B1A73FA3B /* GNLogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 624718554CE1A05D394D3367 /* GNLogManager.m */; };
+		34C046541E08D72E8FF9F5B2 /* REFrostedContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B163C541F53ACE0D97CC5D8E /* REFrostedContainerViewController.m */; };
+		3B7D275295B91412BC6FEBC7 /* MedianIcons in Frameworks */ = {isa = PBXBuildFile; productRef = 5925F1CAF5C8979241068E94 /* MedianIcons */; };
+		48C52344389525725FC1242A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB12FAEA988792C92899374A /* Images.xcassets */; };
+		4B4B4F7DB9CBB7463A7EC496 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A70FF19A82786B0E2D4CA7A /* CFNetwork.framework */; };
+		4CA33806F2FF77E0851112D4 /* LEANWebViewIntercept.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D4521C039D033E2E988A350 /* LEANWebViewIntercept.m */; };
+		4E1CEB58CAD408D8A306095E /* GNRegistrationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 196A1223DB1CB822D4F422EA /* GNRegistrationManager.m */; };
+		56EA7742AFA612434DF13DB6 /* LEANWebViewPool.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A92F1775ED2A4E952BCE3F /* LEANWebViewPool.m */; };
+		582AE43663EDAA729908BC29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F21C22342E6A05CB42F8397 /* main.m */; };
+		5D8B839B1E4C4678C622EF48 /* TuistFonts+TruthActionProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA0DE2826C3802DC1F3992D /* TuistFonts+TruthActionProject.swift */; };
+		5F4DEC52B755F75317FE94DC /* appbeep.wav in Resources */ = {isa = PBXBuildFile; fileRef = 076F81E75FA04536FF950A39 /* appbeep.wav */; };
+		5F530A1F3C45CC348130CB70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5766C4F5EB952701BA1D52 /* Foundation.framework */; };
+		60ED5F8EDEB524BE675739FD /* LeanIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA156E8B624AFD36807159F /* LeanIOSTests.m */; };
+		6264C90C1EA91CD876D77553 /* MenuChildIcon.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03CB7D2A6A1D83AE6F64AE27 /* MenuChildIcon.xib */; };
+		6813A50BE2D501F7243C4CDE /* MediaAccessibility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B674DDB6DB73D21E90EE7F7D /* MediaAccessibility.framework */; };
+		69CB6440F5A6DE178D1D619C /* GNFileWriterSharer.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF31F6ADFDA2042D780E4E0 /* GNFileWriterSharer.m */; };
+		6F1561100BF5691FF9650FAE /* WebViewViewportManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C936A353AEC3B776617D42E0 /* WebViewViewportManager.swift */; };
+		73FDF989B3C1116E7287019A /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDF1B01B48CF4AFE1BFAB74 /* RECommonFunctions.m */; };
+		77D30BB9B23B7CA83E790840 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52E55F757570DF98E9068ADB /* SystemConfiguration.framework */; };
+		7D37A3CE3D7D446529D4B3A9 /* MenuGroupNoIcon.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BB636FC71E64762D48B95D9 /* MenuGroupNoIcon.xib */; };
+		7D62B1FBA989AD2A13BF7746 /* customCSS.css in Resources */ = {isa = PBXBuildFile; fileRef = 36340E3864A6EDC529E05C83 /* customCSS.css */; };
+		7F417A250BDDE45D31FBB639 /* LEANNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180B6C44936E0005681A23D3 /* LEANNavigationController.m */; };
+		82C6C798671A578B52843B5F /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CB98FF5C67ABA7FED7FC133B /* Settings.bundle */; };
+		835F052A09783D8D19BE7B6C /* custom-icons.json in Resources */ = {isa = PBXBuildFile; fileRef = 1D2F0D1A9B728BD52313F442 /* custom-icons.json */; };
+		843E89D35FA2C5F6525EF128 /* LEANLoadingSpinnerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 311408D842EDCFC915562E09 /* LEANLoadingSpinnerManager.m */; };
+		8A2227A513A95411DB34A7DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B1720C35E65F1EB2D086E7 /* Assets.xcassets */; };
+		8AE42FF3C086F94512FEA7EF /* UIView+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA109DC30DBAFA4FD5271BA /* UIView+REFrostedViewController.m */; };
+		8B32E6E3324A0977C7009844 /* appConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = 146A53D946BFD2F257AFE4BD /* appConfig.json */; };
+		8BB828A74155F7B43169E82F /* LEANWindowOverrideHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = DB18A26AA09B1BCF81A014FC /* LEANWindowOverrideHandler.m */; };
+		8D2942864F358D0BE6BF309C /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = B64A6FD609CFB3A83A0B5395 /* PrivacyInfo.xcprivacy */; };
+		8DD785C69077D82A9763CAED /* LEANActionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9D2D2C272AE1A6B32FF0AF /* LEANActionManager.m */; };
+		8DFFDE9C9A379965D92E4A72 /* LEANAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 116B1E7888DAC209BC1514BD /* LEANAppDelegate.m */; };
+		92F19B4CBFB752B8A98D4F8D /* LEANUrlInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = F9AF525450A03F4D45009B90 /* LEANUrlInspector.m */; };
+		969BBEE061714F73D1F8024A /* GoNativeJSBridgeLibrary.js in Resources */ = {isa = PBXBuildFile; fileRef = 804446BD10214F00243F868D /* GoNativeJSBridgeLibrary.js */; };
+		98495D6A4FDF96D6830ADA24 /* iosCustomJS.js in Resources */ = {isa = PBXBuildFile; fileRef = C65C579822E5E19A3F2E56B7 /* iosCustomJS.js */; };
+		9B2F91C241A8A222D57FC2F1 /* LEANPDFManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7D6128FE96463888A6E1F9 /* LEANPDFManager.m */; };
+		9B589F2CC31CDAD68DE8D3E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A8A9960F07027374927062 /* UIKit.framework */; };
+		9D438E80F49DC1B2EC5741B6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 185557ED5B232BEE804F7921 /* Localizable.strings */; };
+		9E0D13A70EECE84A0C8E76B2 /* UIApplication+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DED3CCF7198CA340C055FAA /* UIApplication+Extensions.swift */; };
+		9E989C0182312278F72E9ED3 /* REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE841768C7D316A05A4AE7D5 /* REFrostedViewController.m */; };
+		9FBE97958A7191399CAFCFE8 /* LEANDocumentSharer.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E2D38C93E624DC8EA0D36C /* LEANDocumentSharer.m */; };
+		A24243B768075BB79A1546C6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FB2C90AA0281C25467D511 /* Security.framework */; };
+		A265C6135A3E81721B16E3F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B374E3BAA14FE429E997FB20 /* InfoPlist.strings */; };
+		A52F79819EC953B5BFB8784E /* LiquidTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1C72DB3619C7C138A63D22 /* LiquidTitleView.swift */; };
+		A62D7CF3328529D078179231 /* GNBackgroundAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 362CEBB829547B90895B2BD1 /* GNBackgroundAudio.m */; };
+		A76CAC342ABCD266EAB19FD2 /* LEANKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D756E3B9E2C235EC7D8478BC /* LEANKeyboardManager.m */; };
+		A7EF97E3E29F1B21CDBDEF72 /* GNJSBridgeInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B75BB46B6A4C9E04D9643D /* GNJSBridgeInterface.m */; };
+		AB013A4A3E2CEF52992A88D5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51F4B3E798523836EFA493EF /* AudioToolbox.framework */; };
+		B30741CF1898E39D850AEEE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F9E041562F9977CC776F097 /* Main.storyboard */; };
+		B98F12F82E6B5091CAF52A87 /* LEANRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CCD583EE46AE18ADC6A14FB /* LEANRootViewController.m */; };
+		BA2B860E89EAC6DE4162CCF4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0554795216827E7826B64910 /* GoogleService-Info.plist */; };
+		BB55844F79BE3AC7367358D5 /* LaunchScreenNoNav.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C685455063578870CF263522 /* LaunchScreenNoNav.storyboard */; };
+		C1C476B8A05C56B3BB10B81E /* LEANWindowsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C156ADD60F8C0C46FBBBFC6E /* LEANWindowsManager.m */; };
+		C9542F332F827992CED91DF3 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 465C34FB2B882D1256AE461F /* CoreText.framework */; };
+		C95D9C2EC04C6F8F3579BAB5 /* MedianEventsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5394102B02F23D30288104 /* MedianEventsManager.m */; };
+		CC4021047A6B035065D8FD84 /* NSURL+LEANUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7D6F781C06171E7C5BF5BC /* NSURL+LEANUtilities.m */; };
+		CF2562A705864B235B41450F /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 679E643C3B16804CDFC7922A /* Accounts.framework */; };
+		D6AC3EE5486D96CCF6D07D00 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F3D94C4AC65059F89136C8 /* Reachability.m */; };
+		D97013C952DEC2DA1D8355BF /* offline.html in Resources */ = {isa = PBXBuildFile; fileRef = F7C5A0AEF2897808B68B33FD /* offline.html */; };
+		DB5BCD34D854B68EA3111E99 /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54A4F80AD3D81C871BCF525F /* AppTrackingTransparency.framework */; };
+		DC13CC2A532E4D1D543A0665 /* customJS.js in Resources */ = {isa = PBXBuildFile; fileRef = BE363FC8E4227F877E182A66 /* customJS.js */; };
+		DCCE46198BD1AA86BDF41548 /* GNConfigPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = F6EEC4C47625E3FEE155BF7C /* GNConfigPreferences.m */; };
+		DD0A9BB782A1F14BAE05164F /* LEANUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 152BE2739CAFF5E59FC70234 /* LEANUtilities.m */; };
+		E12FB76C1A9A2FD797211DC2 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42FAAD00E62A7768309AA9C7 /* MessageUI.framework */; };
+		E5C8A8868B652566A774F114 /* LaunchScreenNav.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFFBD7D177B3D13C5600F46B /* LaunchScreenNav.storyboard */; };
+		EC2AE0C91DC32FB2F4AC87CE /* LEANProfilePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E96ED3DFC944693F3B67ABD /* LEANProfilePicker.m */; };
+		EC5D289B04E8632DA89F3113 /* SidebarHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD4276605AEA97BDDBFBA96F /* SidebarHeaderView.xib */; };
+		EFF313A95EF7ABDD6D84729B /* WindowsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFC2AAC7DEEB4B4DFD4E80A /* WindowsController.swift */; };
+		F301C195F98EC725CEF1F3F9 /* LEANIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4250C51ABC42F8FA7654FC /* LEANIcons.swift */; };
+		F8710BC25C820411E5F8EF96 /* TuistPlists+TruthActionProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3BF8C4F36D7EF9A346DAAD /* TuistPlists+TruthActionProject.swift */; };
+		FB827514DB1D34B06149F4DB /* LEANLaunchScreenManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F6770A240BCA276771D782E3 /* LEANLaunchScreenManager.m */; };
+		FBF4BDF8DD808F9E75B5E592 /* MenuGroupIcon.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3814AA05332474B090D7F9A /* MenuGroupIcon.xib */; };
+		FD57615A3685AEF811582FE6 /* LEANRegexRulesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E6899381142C7E749E976E /* LEANRegexRulesManager.m */; };
+		FDAC39072A2DA68C79525704 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36B8F333D7BAA3E1A7140CDB /* LaunchScreen.storyboard */; };
+		FF3E9E7E47AD889190040057 /* LEANSceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB72AA75ED3A77646627182 /* LEANSceneDelegate.m */; };
+		FF58C5A08CE8100A4FDD1BB7 /* ZipArchive in Frameworks */ = {isa = PBXBuildFile; productRef = 7F337735480F92A8986E9033 /* ZipArchive */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FF2C59070F46A3567A9F3C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9AE78B2C6897FBAB76EE420 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91E136DB91424B1205297EF8;
+			remoteInfo = TruthActionProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		93789CED5489361C4E308B16 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6EF93D21D4BEB4735432790 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		03CB7D2A6A1D83AE6F64AE27 /* MenuChildIcon.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuChildIcon.xib; sourceTree = "<group>"; };
+		04FB2C90AA0281C25467D511 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		0554795216827E7826B64910 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		076F81E75FA04536FF950A39 /* appbeep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = appbeep.wav; sourceTree = "<group>"; };
+		0D4521C039D033E2E988A350 /* LEANWebViewIntercept.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEANWebViewIntercept.m; sourceTree = "<group>"; };
+		0E4250C51ABC42F8FA7654FC /* LEANIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEANIcons.swift; sourceTree = "<group>"; };
+		0F7D6128FE96463888A6E1F9 /* LEANPDFManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEANPDFManager.m; sourceTree = "<group>"; };
+		116B1E7888DAC209BC1514BD /* LEANAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEANAppDelegate.m; sourceTree = "<group>"; };
+		12E6C87162DF4B9AACC75FBC /* LEANInstallation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEANInstallation.m; sourceTree = "<group>"; };
+		130BE31241FD5621E6C9B746 /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		13B1720C35E65F1EB2D086E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		146A53D946BFD2F257AFE4BD /* appConfig.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = appConfig.json; sourceTree = "<group>"; };
+		152BE2739CAFF5E59FC70234 /* LEANUtilities.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEANUtilities.m; sourceTree = "<group>"; };
+		180B6C44936E0005681A23D3 /* LEANNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEANNavigationController.m; sourceTree = "<group>"; };
+		196A1223DB1CB822D4F422EA /* GNRegistrationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GNRegistrationManager.m; sourceTree = "<group>"; };
+		198E1DF552E2FFCBE8A8D39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A5766C4F5EB952701BA1D52 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1BB0DB4239577DE2BB8AFD06 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1CCD583EE46AE18ADC6A14FB /* LEANRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEANRootViewController.m; sourceTree = "<group>"; };
+		1D2F0D1A9B728BD52313F442 /* custom-icons.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "custom-icons.json"; sourceTree = "<group>"; };
+		1DDEE358C87ACCFD83C1CA28 /* TuistAssets+TruthActionProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+TruthActionProject.swift"; sourceTree = "<group>"; };
+		1E96ED3DFC944693F3B67ABD /* LEANProfilePicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEANProfilePicker.m; sourceTree = "<group>"; };
+		1FACF5A4B2531A20B6D1C018 /* AppIcon */ = {isa = PBXFileReference; lastKnownFileType = file; path = AppIcon; sourceTree = "<group>"; };
+		20F164604B2046E52C328808 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20F7F4FB62C867C0CF415780 /* TruthActionProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TruthActionProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		226EE6935750C95F0B64A9A0 /* LEANJsCustomCodeExecutor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEANJsCustomCodeExecutor.m; sourceTree = "<group>"; };
+		248A1D94907D3006727AB4B5 /* MedianIOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "MedianIOSTests-Info.plist"; sourceTree = "<group>"; };
+		2A1A24410281578F648A74AA /* ContextMenuHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuHandler.swift; sourceTree = "<group>"; };
+		2C318E400A7F733ADBDE84B5 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2D086B0699BABC3AA0C4F347 /* MedianIOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "MedianIOS-Info.plist"; sourceTree = "<group>"; };
+		2DA0DE2826C3802DC1F3992D /* TuistFonts+TruthActionProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistFonts+TruthActionProject.swift"; sourceTree = "<group>"; };
+		2EB72AA75ED3A77646627182 /* LEANSceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEANSceneDelegate.m; sourceTree = "<group>"; };
+		311408D842EDCFC915562E09 /* LEANLoadingSpinnerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEANLoadingSpinnerManager.m; sourceTree = "<group>"; };
+		31EB8111905FC20A54BCF6C9 /* TruthActionProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TruthActionProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		362CEBB829547B90895B2BD1 /* GNBackgroundAudio.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GNBackgroundAudio.m; sourceTree = "<group>"; };
+		36340E3864A6EDC529E05C83 /* customCSS.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = customCSS.css; sourceTree = "<group>"; };
+		36B8F333D7BAA3E1A7140CDB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		37B080185633804964C6A4D0 /* custom-icons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "custom-icons.ttf"; sourceTree = "<group>"; };
+		38A00C1F214637BBD4F553C7 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		397E14D67482F043EAB9A7A7 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		3C5106E61D4A0162D7A50CD0 /* fa */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fa; path = fa.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3F21C22342E6A05CB42F8397 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		42FAAD00E62A7768309AA9C7 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MessageUI.framework; sourceTree = DEVELOPER_DIR; };
+		4368FDEA70E1D6D00654A9F4 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		43E2D38C93E624DC8EA0D36C /* LEANDocumentSharer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEANDocumentSharer.m; sourceTree = "<group>"; };
+		45A4E4E7E4C22E595FE59F69 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		45E7C6EBA809B2D59B0FBC4A /* LEANConfigUpdater.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEANConfigUpdater.m; sourceTree = "<group>"; };
+		465C34FB2B882D1256AE461F /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		482992C7B6C2BDCE1AA4FE85 /* GNCustomHeaders.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GNCustomHeaders.m; sourceTree = "<group>"; };
+		4C7B391286C3CC23614BBD6E /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		4D5394102B02F23D30288104 /* MedianEventsManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MedianEventsManager.m; sourceTree = "<group>"; };
+		50E6899381142C7E749E976E /* LEANRegexRulesManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEANRegexRulesManager.m; sourceTree = "<group>"; };
+		510418EB78EEFC1AFA5F6DF1 /* nn-NO */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "nn-NO"; path = "nn-NO.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		51F4B3E798523836EFA493EF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		52E55F757570DF98E9068ADB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		54A4F80AD3D81C871BCF525F /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = DEVELOPER_DIR; };
+		589A179120634304556D9EB7 /* UIViewController+REFrostedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+REFrostedViewController.m"; sourceTree = "<group>"; };
+		5CDC1BB2C6E128FDBC2838C3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		5DDF1B01B48CF4AFE1BFAB74 /* RECommonFunctions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
+		5DED3CCF7198CA340C055FAA /* UIApplication+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extensions.swift"; sourceTree = "<group>"; };
+		624718554CE1A05D394D3367 /* GNLogManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GNLogManager.m; sourceTree = "<group>"; };
+		64A92F1775ED2A4E952BCE3F /* LEANWebViewPool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEANWebViewPool.m; sourceTree = "<group>"; };
+		666544387F5D9E741EA7EC37 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		679E643C3B16804CDFC7922A /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Accounts.framework; sourceTree = DEVELOPER_DIR; };
+		6BFC2AAC7DEEB4B4DFD4E80A /* WindowsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowsController.swift; sourceTree = "<group>"; };
+		6C6F3F113415BA3B3F483495 /* localCache.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = localCache.zip; sourceTree = "<group>"; };
+		72A595F5C485E3783A44545D /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		761CDCD7AC7D1B73F581DAD2 /* LEANWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEANWebViewController.m; sourceTree = "<group>"; };
+		7BA109DC30DBAFA4FD5271BA /* UIView+REFrostedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+REFrostedViewController.m"; sourceTree = "<group>"; };
+		7BB636FC71E64762D48B95D9 /* MenuGroupNoIcon.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuGroupNoIcon.xib; sourceTree = "<group>"; };
+		804446BD10214F00243F868D /* GoNativeJSBridgeLibrary.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = GoNativeJSBridgeLibrary.js; sourceTree = "<group>"; };
+		8131E37EFD1AACFF63AB48B8 /* GTMNSString+HTML.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+HTML.m"; sourceTree = "<group>"; };
+		86F231A39CD1AA7192930DFA /* et */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = et; path = et.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8EF8AFFDD1C03197FA805435 /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		90F3D94C4AC65059F89136C8 /* Reachability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		92A1454017E32B4C2171EF53 /* iosHeaderImage */ = {isa = PBXFileReference; lastKnownFileType = file; path = iosHeaderImage; sourceTree = "<group>"; };
+		93BEC17253CD01EAA3319C39 /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/Localizable.strings; sourceTree = "<group>"; };
+		959A7EDF1E1977900304C03A /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		9A70FF19A82786B0E2D4CA7A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		9C9D2D2C272AE1A6B32FF0AF /* LEANActionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEANActionManager.m; sourceTree = "<group>"; };
+		9DA156E8B624AFD36807159F /* LeanIOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeanIOSTests.m; sourceTree = "<group>"; };
+		A724F21F34DAD64EEAD189AF /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A8693B8803CA3D330061A009 /* TuistStrings+TruthActionProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistStrings+TruthActionProject.swift"; sourceTree = "<group>"; };
+		AA9B924B38B9A9538D1202C1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		AF0DFA79CB217879344617FD /* iosCustomCSS.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = iosCustomCSS.css; sourceTree = "<group>"; };
+		AF3BF8C4F36D7EF9A346DAAD /* TuistPlists+TruthActionProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistPlists+TruthActionProject.swift"; sourceTree = "<group>"; };
+		AFA375EC00979AEB9B89D9D6 /* MenuChildNoIcon.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuChildNoIcon.xib; sourceTree = "<group>"; };
+		AFFBD7D177B3D13C5600F46B /* LaunchScreenNav.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreenNav.storyboard; sourceTree = "<group>"; };
+		B100B5E2A7D496C4EA1FBA8C /* LEANTabManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEANTabManager.m; sourceTree = "<group>"; };
+		B163C541F53ACE0D97CC5D8E /* REFrostedContainerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = REFrostedContainerViewController.m; sourceTree = "<group>"; };
+		B64A6FD609CFB3A83A0B5395 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		B674DDB6DB73D21E90EE7F7D /* MediaAccessibility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaAccessibility.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MediaAccessibility.framework; sourceTree = DEVELOPER_DIR; };
+		B69D2EEFB3216D6528F92691 /* LEANToolbarManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEANToolbarManager.m; sourceTree = "<group>"; };
+		BD4276605AEA97BDDBFBA96F /* SidebarHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SidebarHeaderView.xib; sourceTree = "<group>"; };
+		BE363FC8E4227F877E182A66 /* customJS.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = customJS.js; sourceTree = "<group>"; };
+		BE9A4C490EB975928805342F /* Project.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Project.entitlements; sourceTree = "<group>"; };
+		BF8A316A28E55C4732EAD51C /* GNSwiftUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GNSwiftUtilities.swift; sourceTree = "<group>"; };
+		C123AEB8DF73E806CF6DAE9C /* LEANMenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEANMenuViewController.m; sourceTree = "<group>"; };
+		C156ADD60F8C0C46FBBBFC6E /* LEANWindowsManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEANWindowsManager.m; sourceTree = "<group>"; };
+		C1D1E198C5D065736FFD67BE /* lt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = lt; path = lt.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C65C579822E5E19A3F2E56B7 /* iosCustomJS.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = iosCustomJS.js; sourceTree = "<group>"; };
+		C685455063578870CF263522 /* LaunchScreenNoNav.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreenNoNav.storyboard; sourceTree = "<group>"; };
+		C8A8A9960F07027374927062 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C936A353AEC3B776617D42E0 /* WebViewViewportManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewViewportManager.swift; sourceTree = "<group>"; };
+		CA85FA466644C11AF5B5D880 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CB98FF5C67ABA7FED7FC133B /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = wrapper.cfbundle; path = Settings.bundle; sourceTree = "<group>"; };
+		CF5DD06777374C0452DCF6D4 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D4036CA40F14B0FA37F6E441 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D756E3B9E2C235EC7D8478BC /* LEANKeyboardManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEANKeyboardManager.m; sourceTree = "<group>"; };
+		D81C119E85CD6C124E4DA1DF /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D8B75BB46B6A4C9E04D9643D /* GNJSBridgeInterface.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GNJSBridgeInterface.m; sourceTree = "<group>"; };
+		D8FFECE93499A2EEF78182EE /* gd */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = gd; path = gd.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DA6A76056CA56C922A7D043F /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DA882ED06FF033A42E4CEF7F /* BlobDownloader.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = BlobDownloader.js; sourceTree = "<group>"; };
+		DB18A26AA09B1BCF81A014FC /* LEANWindowOverrideHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEANWindowOverrideHandler.m; sourceTree = "<group>"; };
+		DB8BA605CF39AF54BABD1DB5 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DC2D4817EB9EAD34DA4F9090 /* UIImage+REFrostedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+REFrostedViewController.m"; sourceTree = "<group>"; };
+		E3814AA05332474B090D7F9A /* MenuGroupIcon.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuGroupIcon.xib; sourceTree = "<group>"; };
+		E3AC04549EFE269D3ED80942 /* LEANUrlCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEANUrlCache.m; sourceTree = "<group>"; };
+		E8D7EC29356299E2A8E6307E /* TuistBundle+TruthActionProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+TruthActionProject.swift"; sourceTree = "<group>"; };
+		EBF31F6ADFDA2042D780E4E0 /* GNFileWriterSharer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GNFileWriterSharer.m; sourceTree = "<group>"; };
+		ED7D6F781C06171E7C5BF5BC /* NSURL+LEANUtilities.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURL+LEANUtilities.m"; sourceTree = "<group>"; };
+		EE841768C7D316A05A4AE7D5 /* REFrostedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = REFrostedViewController.m; sourceTree = "<group>"; };
+		EEDB91ED6F0ED5A15EBAD68F /* CustomMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMenu.swift; sourceTree = "<group>"; };
+		F0B58B49BC01DA1047174655 /* LEANLoginManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEANLoginManager.m; sourceTree = "<group>"; };
+		F4AD40760FDE245D4B2D0940 /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F5E91F61AC6799EB0EDFEB93 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Social.framework; sourceTree = DEVELOPER_DIR; };
+		F62D7505FA3CA14A433EDA13 /* lv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = lv; path = lv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F6770A240BCA276771D782E3 /* LEANLaunchScreenManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEANLaunchScreenManager.m; sourceTree = "<group>"; };
+		F6EEC4C47625E3FEE155BF7C /* GNConfigPreferences.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GNConfigPreferences.m; sourceTree = "<group>"; };
+		F7C5A0AEF2897808B68B33FD /* offline.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = offline.html; sourceTree = "<group>"; };
+		F892433ED4CEE92A23A4F585 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F9AF525450A03F4D45009B90 /* LEANUrlInspector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEANUrlInspector.m; sourceTree = "<group>"; };
+		FA85001E9B350375EE20E604 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB12FAEA988792C92899374A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FDBD6140F7B34D0AB4E9C44E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FDED8CBCD17E797F45B09D5D /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FE1C72DB3619C7C138A63D22 /* LiquidTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidTitleView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2479CA2F1D48E2B4F002885F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB2A52EC4D00FCB541A8660 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2562A705864B235B41450F /* Accounts.framework in Frameworks */,
+				DB5BCD34D854B68EA3111E99 /* AppTrackingTransparency.framework in Frameworks */,
+				AB013A4A3E2CEF52992A88D5 /* AudioToolbox.framework in Frameworks */,
+				4B4B4F7DB9CBB7463A7EC496 /* CFNetwork.framework in Frameworks */,
+				1B50CAEB885742AC56DD7046 /* CoreGraphics.framework in Frameworks */,
+				0B031CCB07F5AF20277A61D2 /* CoreLocation.framework in Frameworks */,
+				C9542F332F827992CED91DF3 /* CoreText.framework in Frameworks */,
+				5F530A1F3C45CC348130CB70 /* Foundation.framework in Frameworks */,
+				6813A50BE2D501F7243C4CDE /* MediaAccessibility.framework in Frameworks */,
+				E12FB76C1A9A2FD797211DC2 /* MessageUI.framework in Frameworks */,
+				11152148BC299935828093FC /* QuartzCore.framework in Frameworks */,
+				A24243B768075BB79A1546C6 /* Security.framework in Frameworks */,
+				0A91A1DC2FFAD6C575F4E17C /* Social.framework in Frameworks */,
+				77D30BB9B23B7CA83E790840 /* SystemConfiguration.framework in Frameworks */,
+				9B589F2CC31CDAD68DE8D3E2 /* UIKit.framework in Frameworks */,
+				10EB1CE0C19F656C4670CE74 /* GoNativeCore in Frameworks */,
+				3B7D275295B91412BC6FEBC7 /* MedianIcons in Frameworks */,
+				FF58C5A08CE8100A4FDD1BB7 /* ZipArchive in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09420EF40D1DF4CA4AF5E679 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				679E643C3B16804CDFC7922A /* Accounts.framework */,
+				54A4F80AD3D81C871BCF525F /* AppTrackingTransparency.framework */,
+				51F4B3E798523836EFA493EF /* AudioToolbox.framework */,
+				9A70FF19A82786B0E2D4CA7A /* CFNetwork.framework */,
+				666544387F5D9E741EA7EC37 /* CoreGraphics.framework */,
+				5CDC1BB2C6E128FDBC2838C3 /* CoreLocation.framework */,
+				465C34FB2B882D1256AE461F /* CoreText.framework */,
+				1A5766C4F5EB952701BA1D52 /* Foundation.framework */,
+				B674DDB6DB73D21E90EE7F7D /* MediaAccessibility.framework */,
+				42FAAD00E62A7768309AA9C7 /* MessageUI.framework */,
+				AA9B924B38B9A9538D1202C1 /* QuartzCore.framework */,
+				04FB2C90AA0281C25467D511 /* Security.framework */,
+				F5E91F61AC6799EB0EDFEB93 /* Social.framework */,
+				52E55F757570DF98E9068ADB /* SystemConfiguration.framework */,
+				C8A8A9960F07027374927062 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37A53B3639FD1C7A8BFFED95 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				40130C75F9A957CC68AA8EEF /* Derived */,
+				6AA4CAF8137C7B754BEFA87C /* LeanIOS */,
+				9ECF453E1D07320831474FEA /* LeanIOSTests */,
+				0554795216827E7826B64910 /* GoogleService-Info.plist */,
+				BE9A4C490EB975928805342F /* Project.entitlements */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		3E51A7B62331EE2D3B1EF57B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20F7F4FB62C867C0CF415780 /* TruthActionProject.app */,
+				31EB8111905FC20A54BCF6C9 /* TruthActionProjectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40130C75F9A957CC68AA8EEF /* Derived */ = {
+			isa = PBXGroup;
+			children = (
+				EDECA5E07921AE85E5D65105 /* Sources */,
+			);
+			path = Derived;
+			sourceTree = "<group>";
+		};
+		4044D70F36557C21DC270784 /* REFrostedViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5DDF1B01B48CF4AFE1BFAB74 /* RECommonFunctions.m */,
+				B163C541F53ACE0D97CC5D8E /* REFrostedContainerViewController.m */,
+				EE841768C7D316A05A4AE7D5 /* REFrostedViewController.m */,
+				DC2D4817EB9EAD34DA4F9090 /* UIImage+REFrostedViewController.m */,
+				7BA109DC30DBAFA4FD5271BA /* UIView+REFrostedViewController.m */,
+				589A179120634304556D9EB7 /* UIViewController+REFrostedViewController.m */,
+			);
+			path = REFrostedViewController;
+			sourceTree = "<group>";
+		};
+		6AA4CAF8137C7B754BEFA87C /* LeanIOS */ = {
+			isa = PBXGroup;
+			children = (
+				B374E3BAA14FE429E997FB20 /* InfoPlist.strings */,
+				185557ED5B232BEE804F7921 /* Localizable.strings */,
+				4F9E041562F9977CC776F097 /* Main.storyboard */,
+				4044D70F36557C21DC270784 /* REFrostedViewController */,
+				076F81E75FA04536FF950A39 /* appbeep.wav */,
+				146A53D946BFD2F257AFE4BD /* appConfig.json */,
+				1FACF5A4B2531A20B6D1C018 /* AppIcon */,
+				13B1720C35E65F1EB2D086E7 /* Assets.xcassets */,
+				DA882ED06FF033A42E4CEF7F /* BlobDownloader.js */,
+				2A1A24410281578F648A74AA /* ContextMenuHandler.swift */,
+				1D2F0D1A9B728BD52313F442 /* custom-icons.json */,
+				37B080185633804964C6A4D0 /* custom-icons.ttf */,
+				36340E3864A6EDC529E05C83 /* customCSS.css */,
+				BE363FC8E4227F877E182A66 /* customJS.js */,
+				EEDB91ED6F0ED5A15EBAD68F /* CustomMenu.swift */,
+				362CEBB829547B90895B2BD1 /* GNBackgroundAudio.m */,
+				F6EEC4C47625E3FEE155BF7C /* GNConfigPreferences.m */,
+				482992C7B6C2BDCE1AA4FE85 /* GNCustomHeaders.m */,
+				EBF31F6ADFDA2042D780E4E0 /* GNFileWriterSharer.m */,
+				D8B75BB46B6A4C9E04D9643D /* GNJSBridgeInterface.m */,
+				624718554CE1A05D394D3367 /* GNLogManager.m */,
+				196A1223DB1CB822D4F422EA /* GNRegistrationManager.m */,
+				BF8A316A28E55C4732EAD51C /* GNSwiftUtilities.swift */,
+				804446BD10214F00243F868D /* GoNativeJSBridgeLibrary.js */,
+				8131E37EFD1AACFF63AB48B8 /* GTMNSString+HTML.m */,
+				FB12FAEA988792C92899374A /* Images.xcassets */,
+				AF0DFA79CB217879344617FD /* iosCustomCSS.css */,
+				C65C579822E5E19A3F2E56B7 /* iosCustomJS.js */,
+				92A1454017E32B4C2171EF53 /* iosHeaderImage */,
+				36B8F333D7BAA3E1A7140CDB /* LaunchScreen.storyboard */,
+				AFFBD7D177B3D13C5600F46B /* LaunchScreenNav.storyboard */,
+				C685455063578870CF263522 /* LaunchScreenNoNav.storyboard */,
+				9C9D2D2C272AE1A6B32FF0AF /* LEANActionManager.m */,
+				116B1E7888DAC209BC1514BD /* LEANAppDelegate.m */,
+				45E7C6EBA809B2D59B0FBC4A /* LEANConfigUpdater.m */,
+				43E2D38C93E624DC8EA0D36C /* LEANDocumentSharer.m */,
+				0E4250C51ABC42F8FA7654FC /* LEANIcons.swift */,
+				12E6C87162DF4B9AACC75FBC /* LEANInstallation.m */,
+				226EE6935750C95F0B64A9A0 /* LEANJsCustomCodeExecutor.m */,
+				D756E3B9E2C235EC7D8478BC /* LEANKeyboardManager.m */,
+				F6770A240BCA276771D782E3 /* LEANLaunchScreenManager.m */,
+				311408D842EDCFC915562E09 /* LEANLoadingSpinnerManager.m */,
+				F0B58B49BC01DA1047174655 /* LEANLoginManager.m */,
+				C123AEB8DF73E806CF6DAE9C /* LEANMenuViewController.m */,
+				180B6C44936E0005681A23D3 /* LEANNavigationController.m */,
+				0F7D6128FE96463888A6E1F9 /* LEANPDFManager.m */,
+				1E96ED3DFC944693F3B67ABD /* LEANProfilePicker.m */,
+				50E6899381142C7E749E976E /* LEANRegexRulesManager.m */,
+				1CCD583EE46AE18ADC6A14FB /* LEANRootViewController.m */,
+				2EB72AA75ED3A77646627182 /* LEANSceneDelegate.m */,
+				B100B5E2A7D496C4EA1FBA8C /* LEANTabManager.m */,
+				B69D2EEFB3216D6528F92691 /* LEANToolbarManager.m */,
+				E3AC04549EFE269D3ED80942 /* LEANUrlCache.m */,
+				F9AF525450A03F4D45009B90 /* LEANUrlInspector.m */,
+				152BE2739CAFF5E59FC70234 /* LEANUtilities.m */,
+				761CDCD7AC7D1B73F581DAD2 /* LEANWebViewController.m */,
+				0D4521C039D033E2E988A350 /* LEANWebViewIntercept.m */,
+				64A92F1775ED2A4E952BCE3F /* LEANWebViewPool.m */,
+				DB18A26AA09B1BCF81A014FC /* LEANWindowOverrideHandler.m */,
+				C156ADD60F8C0C46FBBBFC6E /* LEANWindowsManager.m */,
+				FE1C72DB3619C7C138A63D22 /* LiquidTitleView.swift */,
+				6C6F3F113415BA3B3F483495 /* localCache.zip */,
+				3F21C22342E6A05CB42F8397 /* main.m */,
+				4D5394102B02F23D30288104 /* MedianEventsManager.m */,
+				2D086B0699BABC3AA0C4F347 /* MedianIOS-Info.plist */,
+				03CB7D2A6A1D83AE6F64AE27 /* MenuChildIcon.xib */,
+				AFA375EC00979AEB9B89D9D6 /* MenuChildNoIcon.xib */,
+				E3814AA05332474B090D7F9A /* MenuGroupIcon.xib */,
+				7BB636FC71E64762D48B95D9 /* MenuGroupNoIcon.xib */,
+				ED7D6F781C06171E7C5BF5BC /* NSURL+LEANUtilities.m */,
+				F7C5A0AEF2897808B68B33FD /* offline.html */,
+				B64A6FD609CFB3A83A0B5395 /* PrivacyInfo.xcprivacy */,
+				90F3D94C4AC65059F89136C8 /* Reachability.m */,
+				CB98FF5C67ABA7FED7FC133B /* Settings.bundle */,
+				BD4276605AEA97BDDBFBA96F /* SidebarHeaderView.xib */,
+				5DED3CCF7198CA340C055FAA /* UIApplication+Extensions.swift */,
+				C936A353AEC3B776617D42E0 /* WebViewViewportManager.swift */,
+				6BFC2AAC7DEEB4B4DFD4E80A /* WindowsController.swift */,
+			);
+			path = LeanIOS;
+			sourceTree = "<group>";
+		};
+		8C53987D878CE0E6948B5F02 = {
+			isa = PBXGroup;
+			children = (
+				3E51A7B62331EE2D3B1EF57B /* Products */,
+				37A53B3639FD1C7A8BFFED95 /* Project */,
+				09420EF40D1DF4CA4AF5E679 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9ECF453E1D07320831474FEA /* LeanIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				9DA156E8B624AFD36807159F /* LeanIOSTests.m */,
+				248A1D94907D3006727AB4B5 /* MedianIOSTests-Info.plist */,
+			);
+			path = LeanIOSTests;
+			sourceTree = "<group>";
+		};
+		EDECA5E07921AE85E5D65105 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1DDEE358C87ACCFD83C1CA28 /* TuistAssets+TruthActionProject.swift */,
+				E8D7EC29356299E2A8E6307E /* TuistBundle+TruthActionProject.swift */,
+				2DA0DE2826C3802DC1F3992D /* TuistFonts+TruthActionProject.swift */,
+				AF3BF8C4F36D7EF9A346DAAD /* TuistPlists+TruthActionProject.swift */,
+				A8693B8803CA3D330061A009 /* TuistStrings+TruthActionProject.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91E136DB91424B1205297EF8 /* TruthActionProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDD3317D1285A2EC07F881A8 /* Build configuration list for PBXNativeTarget "TruthActionProject" */;
+			buildPhases = (
+				34BA4A024FC3DCAFA4038381 /* Sources */,
+				05F7EAC1754F9171E3BA3C3C /* Resources */,
+				AAB2A52EC4D00FCB541A8660 /* Frameworks */,
+				93789CED5489361C4E308B16 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TruthActionProject;
+			packageProductDependencies = (
+				3B9567D0A46ED08B9294425A /* GoNativeCore */,
+				5925F1CAF5C8979241068E94 /* MedianIcons */,
+				7F337735480F92A8986E9033 /* ZipArchive */,
+			);
+			productName = TruthActionProject;
+			productReference = 20F7F4FB62C867C0CF415780 /* TruthActionProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		936517680ABB9996641BC861 /* TruthActionProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 597E637C79490941C8AD8DE6 /* Build configuration list for PBXNativeTarget "TruthActionProjectTests" */;
+			buildPhases = (
+				C883215E1F24852CF398534B /* Sources */,
+				6F5BC42C304B847A8E97E2EB /* Resources */,
+				2479CA2F1D48E2B4F002885F /* Frameworks */,
+				E6EF93D21D4BEB4735432790 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7612D03EB983811B1181D138 /* PBXTargetDependency */,
+			);
+			name = TruthActionProjectTests;
+			packageProductDependencies = (
+			);
+			productName = TruthActionProjectTests;
+			productReference = 31EB8111905FC20A54BCF6C9 /* TruthActionProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9AE78B2C6897FBAB76EE420 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				ORGANIZATIONNAME = GoNative.io;
+				TargetAttributes = {
+					936517680ABB9996641BC861 = {
+						TestTargetID = 91E136DB91424B1205297EF8;
+					};
+				};
+			};
+			buildConfigurationList = F1857F1A5834307AFD4ED712 /* Build configuration list for PBXProject "TruthActionProject" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				ar,
+				ca,
+				cs,
+				da,
+				de,
+				en,
+				es,
+				"es-419",
+				et,
+				fa,
+				fi,
+				fr,
+				gd,
+				he,
+				hu,
+				it,
+				ja,
+				ko,
+				lt,
+				lv,
+				nl,
+				"nn-NO",
+				pt,
+				"pt-BR",
+				"pt-PT",
+				ru,
+				tr,
+				uk,
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = 8C53987D878CE0E6948B5F02;
+			packageReferences = (
+				AB45E835823614671479211E /* XCRemoteSwiftPackageReference "ZipArchive" */,
+				F389FB4327C20670B3EDE531 /* XCRemoteSwiftPackageReference "go-native-core" */,
+				FAC89F7E4FB5D011E5D4C1D5 /* XCRemoteSwiftPackageReference "median-icons" */,
+			);
+			productRefGroup = 3E51A7B62331EE2D3B1EF57B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91E136DB91424B1205297EF8 /* TruthActionProject */,
+				936517680ABB9996641BC861 /* TruthActionProjectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05F7EAC1754F9171E3BA3C3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2B860E89EAC6DE4162CCF4 /* GoogleService-Info.plist in Resources */,
+				00475827E4E13DDE23FC485A /* AppIcon in Resources */,
+				8A2227A513A95411DB34A7DB /* Assets.xcassets in Resources */,
+				B30741CF1898E39D850AEEE9 /* Main.storyboard in Resources */,
+				1C0E2E5EA33E4170261C4584 /* BlobDownloader.js in Resources */,
+				969BBEE061714F73D1F8024A /* GoNativeJSBridgeLibrary.js in Resources */,
+				48C52344389525725FC1242A /* Images.xcassets in Resources */,
+				FDAC39072A2DA68C79525704 /* LaunchScreen.storyboard in Resources */,
+				E5C8A8868B652566A774F114 /* LaunchScreenNav.storyboard in Resources */,
+				BB55844F79BE3AC7367358D5 /* LaunchScreenNoNav.storyboard in Resources */,
+				6264C90C1EA91CD876D77553 /* MenuChildIcon.xib in Resources */,
+				10C8E3A4A7A0C5B9164E4A79 /* MenuChildNoIcon.xib in Resources */,
+				FBF4BDF8DD808F9E75B5E592 /* MenuGroupIcon.xib in Resources */,
+				7D37A3CE3D7D446529D4B3A9 /* MenuGroupNoIcon.xib in Resources */,
+				8D2942864F358D0BE6BF309C /* PrivacyInfo.xcprivacy in Resources */,
+				82C6C798671A578B52843B5F /* Settings.bundle in Resources */,
+				EC5D289B04E8632DA89F3113 /* SidebarHeaderView.xib in Resources */,
+				8B32E6E3324A0977C7009844 /* appConfig.json in Resources */,
+				5F4DEC52B755F75317FE94DC /* appbeep.wav in Resources */,
+				9D438E80F49DC1B2EC5741B6 /* Localizable.strings in Resources */,
+				835F052A09783D8D19BE7B6C /* custom-icons.json in Resources */,
+				24BC6E6757B2533AE33D9EDB /* custom-icons.ttf in Resources */,
+				7D62B1FBA989AD2A13BF7746 /* customCSS.css in Resources */,
+				DC13CC2A532E4D1D543A0665 /* customJS.js in Resources */,
+				A265C6135A3E81721B16E3F8 /* InfoPlist.strings in Resources */,
+				1590775CCF429A6CB6B2FDB3 /* iosCustomCSS.css in Resources */,
+				98495D6A4FDF96D6830ADA24 /* iosCustomJS.js in Resources */,
+				11A8FC3241F13570BE36C29B /* iosHeaderImage in Resources */,
+				0D729F4980001A457CE9A759 /* localCache.zip in Resources */,
+				D97013C952DEC2DA1D8355BF /* offline.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F5BC42C304B847A8E97E2EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34BA4A024FC3DCAFA4038381 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EFEFD0D5621ADD0C8B852AD /* TuistAssets+TruthActionProject.swift in Sources */,
+				12EFD2D51B8FBBCED5D2F73B /* TuistBundle+TruthActionProject.swift in Sources */,
+				5D8B839B1E4C4678C622EF48 /* TuistFonts+TruthActionProject.swift in Sources */,
+				F8710BC25C820411E5F8EF96 /* TuistPlists+TruthActionProject.swift in Sources */,
+				1697DFABAE4F708622C553A2 /* TuistStrings+TruthActionProject.swift in Sources */,
+				10732D00A4F2FAB46DF9C9CB /* ContextMenuHandler.swift in Sources */,
+				25194FE14B1078F76AD59B38 /* CustomMenu.swift in Sources */,
+				A62D7CF3328529D078179231 /* GNBackgroundAudio.m in Sources */,
+				DCCE46198BD1AA86BDF41548 /* GNConfigPreferences.m in Sources */,
+				03FB2E123E19D79A744DE499 /* GNCustomHeaders.m in Sources */,
+				69CB6440F5A6DE178D1D619C /* GNFileWriterSharer.m in Sources */,
+				A7EF97E3E29F1B21CDBDEF72 /* GNJSBridgeInterface.m in Sources */,
+				342CBC51869C015B1A73FA3B /* GNLogManager.m in Sources */,
+				4E1CEB58CAD408D8A306095E /* GNRegistrationManager.m in Sources */,
+				0B31493D8D8ADF9A4468A454 /* GNSwiftUtilities.swift in Sources */,
+				14DE1572410B481EB1900F6F /* GTMNSString+HTML.m in Sources */,
+				8DD785C69077D82A9763CAED /* LEANActionManager.m in Sources */,
+				8DFFDE9C9A379965D92E4A72 /* LEANAppDelegate.m in Sources */,
+				2A7F34444B94D5F0EC3B6D1B /* LEANConfigUpdater.m in Sources */,
+				9FBE97958A7191399CAFCFE8 /* LEANDocumentSharer.m in Sources */,
+				F301C195F98EC725CEF1F3F9 /* LEANIcons.swift in Sources */,
+				145CAB104B13C2B6E01F010A /* LEANInstallation.m in Sources */,
+				2388CD62C74A1FA03124A2A1 /* LEANJsCustomCodeExecutor.m in Sources */,
+				A76CAC342ABCD266EAB19FD2 /* LEANKeyboardManager.m in Sources */,
+				FB827514DB1D34B06149F4DB /* LEANLaunchScreenManager.m in Sources */,
+				843E89D35FA2C5F6525EF128 /* LEANLoadingSpinnerManager.m in Sources */,
+				18674DBB162D1F2F493830B4 /* LEANLoginManager.m in Sources */,
+				2B6F62D327E1C411FA9D8EC0 /* LEANMenuViewController.m in Sources */,
+				7F417A250BDDE45D31FBB639 /* LEANNavigationController.m in Sources */,
+				9B2F91C241A8A222D57FC2F1 /* LEANPDFManager.m in Sources */,
+				EC2AE0C91DC32FB2F4AC87CE /* LEANProfilePicker.m in Sources */,
+				FD57615A3685AEF811582FE6 /* LEANRegexRulesManager.m in Sources */,
+				B98F12F82E6B5091CAF52A87 /* LEANRootViewController.m in Sources */,
+				FF3E9E7E47AD889190040057 /* LEANSceneDelegate.m in Sources */,
+				0BA7E58CD3006E8654AEE3F1 /* LEANTabManager.m in Sources */,
+				14FF7E82FB0B3C4D6CB5E27E /* LEANToolbarManager.m in Sources */,
+				1A9859A4E846D6937663F203 /* LEANUrlCache.m in Sources */,
+				92F19B4CBFB752B8A98D4F8D /* LEANUrlInspector.m in Sources */,
+				DD0A9BB782A1F14BAE05164F /* LEANUtilities.m in Sources */,
+				2FA2BC9E8210523EA139F03F /* LEANWebViewController.m in Sources */,
+				4CA33806F2FF77E0851112D4 /* LEANWebViewIntercept.m in Sources */,
+				56EA7742AFA612434DF13DB6 /* LEANWebViewPool.m in Sources */,
+				8BB828A74155F7B43169E82F /* LEANWindowOverrideHandler.m in Sources */,
+				C1C476B8A05C56B3BB10B81E /* LEANWindowsManager.m in Sources */,
+				A52F79819EC953B5BFB8784E /* LiquidTitleView.swift in Sources */,
+				C95D9C2EC04C6F8F3579BAB5 /* MedianEventsManager.m in Sources */,
+				CC4021047A6B035065D8FD84 /* NSURL+LEANUtilities.m in Sources */,
+				73FDF989B3C1116E7287019A /* RECommonFunctions.m in Sources */,
+				34C046541E08D72E8FF9F5B2 /* REFrostedContainerViewController.m in Sources */,
+				9E989C0182312278F72E9ED3 /* REFrostedViewController.m in Sources */,
+				1BB900E1FD4CD809C2269073 /* UIImage+REFrostedViewController.m in Sources */,
+				8AE42FF3C086F94512FEA7EF /* UIView+REFrostedViewController.m in Sources */,
+				2D588DDFD972A7ADBBC952C8 /* UIViewController+REFrostedViewController.m in Sources */,
+				D6AC3EE5486D96CCF6D07D00 /* Reachability.m in Sources */,
+				9E0D13A70EECE84A0C8E76B2 /* UIApplication+Extensions.swift in Sources */,
+				6F1561100BF5691FF9650FAE /* WebViewViewportManager.swift in Sources */,
+				EFF313A95EF7ABDD6D84729B /* WindowsController.swift in Sources */,
+				582AE43663EDAA729908BC29 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C883215E1F24852CF398534B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60ED5F8EDEB524BE675739FD /* LeanIOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7612D03EB983811B1181D138 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TruthActionProject;
+			target = 91E136DB91424B1205297EF8 /* TruthActionProject */;
+			targetProxy = 7FF2C59070F46A3567A9F3C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		185557ED5B232BEE804F7921 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F892433ED4CEE92A23A4F585 /* ar */,
+				93BEC17253CD01EAA3319C39 /* ca */,
+				DA6A76056CA56C922A7D043F /* cs */,
+				FDED8CBCD17E797F45B09D5D /* da */,
+				2C318E400A7F733ADBDE84B5 /* de */,
+				45A4E4E7E4C22E595FE59F69 /* en */,
+				FDBD6140F7B34D0AB4E9C44E /* es */,
+				8EF8AFFDD1C03197FA805435 /* es-419 */,
+				86F231A39CD1AA7192930DFA /* et */,
+				3C5106E61D4A0162D7A50CD0 /* fa */,
+				130BE31241FD5621E6C9B746 /* fi */,
+				1BB0DB4239577DE2BB8AFD06 /* fr */,
+				D8FFECE93499A2EEF78182EE /* gd */,
+				F4AD40760FDE245D4B2D0940 /* he */,
+				D81C119E85CD6C124E4DA1DF /* hu */,
+				38A00C1F214637BBD4F553C7 /* it */,
+				D4036CA40F14B0FA37F6E441 /* ja */,
+				DB8BA605CF39AF54BABD1DB5 /* ko */,
+				C1D1E198C5D065736FFD67BE /* lt */,
+				F62D7505FA3CA14A433EDA13 /* lv */,
+				CA85FA466644C11AF5B5D880 /* nl */,
+				510418EB78EEFC1AFA5F6DF1 /* nn-NO */,
+				CF5DD06777374C0452DCF6D4 /* pt */,
+				4C7B391286C3CC23614BBD6E /* pt-BR */,
+				959A7EDF1E1977900304C03A /* pt-PT */,
+				4368FDEA70E1D6D00654A9F4 /* ru */,
+				A724F21F34DAD64EEAD189AF /* tr */,
+				FA85001E9B350375EE20E604 /* uk */,
+				397E14D67482F043EAB9A7A7 /* zh-Hans */,
+				72A595F5C485E3783A44545D /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		4F9E041562F9977CC776F097 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20F164604B2046E52C328808 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B374E3BAA14FE429E997FB20 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				198E1DF552E2FFCBE8A8D39A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1BA8A5119F1BC0A9ABA821A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BUILD_SETTINGS_APP_NAME = "Truth Action Project";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Project.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_LANGUAGE = en;
+				DEVELOPMENT_TEAM = ZHN2P52NGG;
+				ENABLE_BITCODE = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LeanIOS/MedianIOS-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/LeanIOS",
+					"$(SRCROOT)/LeanIOS/REFrostedViewController",
+				);
+				INFOPLIST_FILE = "LeanIOS/MedianIOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+					"-L$(DT_TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.audrinc.truthactionproject;
+				PRODUCT_NAME = TruthActionProject;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OBJC_BRIDGING_HEADER = "LeanIOS/GonativeIO-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "GonativeIO-Swift.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F3634AB57F6F70F5B7E13FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BUILD_SETTINGS_APP_NAME = "Truth Action Project";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Project.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_LANGUAGE = en;
+				DEVELOPMENT_TEAM = ZHN2P52NGG;
+				ENABLE_BITCODE = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LeanIOS/MedianIOS-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/LeanIOS",
+					"$(SRCROOT)/LeanIOS/REFrostedViewController",
+				);
+				INFOPLIST_FILE = "LeanIOS/MedianIOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+					"-L$(DT_TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.audrinc.truthactionproject;
+				PRODUCT_NAME = TruthActionProject;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "LeanIOS/GonativeIO-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "GonativeIO-Swift.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5B3F3D88E603CA858557696D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LeanIOS/MedianIOS-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(inherited)",
+					"$(SRCROOT)/LeanIOS",
+					"$(SRCROOT)/LeanIOS/REFrostedViewController",
+				);
+				INFOPLIST_FILE = "LeanIOSTests/MedianIOSTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L$(DT_TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.median.ios.xljxylbTests;
+				PRODUCT_NAME = TruthActionProjectTests;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TruthActionProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TruthActionProject";
+				TEST_TARGET_NAME = TruthActionProject;
+			};
+			name = Debug;
+		};
+		6B5EE1B541D65B8BFB5FCE73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C4E15E26A07F64F30D793FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LeanIOS/MedianIOS-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(inherited)",
+					"$(SRCROOT)/LeanIOS",
+					"$(SRCROOT)/LeanIOS/REFrostedViewController",
+				);
+				INFOPLIST_FILE = "LeanIOSTests/MedianIOSTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L$(DT_TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.median.ios.xljxylbTests;
+				PRODUCT_NAME = TruthActionProjectTests;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TruthActionProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TruthActionProject";
+				TEST_TARGET_NAME = TruthActionProject;
+			};
+			name = Release;
+		};
+		C49965D947604BFC09C81923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		597E637C79490941C8AD8DE6 /* Build configuration list for PBXNativeTarget "TruthActionProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B3F3D88E603CA858557696D /* Debug */,
+				7C4E15E26A07F64F30D793FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDD3317D1285A2EC07F881A8 /* Build configuration list for PBXNativeTarget "TruthActionProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BA8A5119F1BC0A9ABA821A9 /* Debug */,
+				4F3634AB57F6F70F5B7E13FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1857F1A5834307AFD4ED712 /* Build configuration list for PBXProject "TruthActionProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C49965D947604BFC09C81923 /* Debug */,
+				6B5EE1B541D65B8BFB5FCE73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AB45E835823614671479211E /* XCRemoteSwiftPackageReference "ZipArchive" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ZipArchive/ZipArchive";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.6.0;
+			};
+		};
+		F389FB4327C20670B3EDE531 /* XCRemoteSwiftPackageReference "go-native-core" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "median.go-native-core";
+			requirement = {
+				kind = exactVersion;
+				version = 3.0.17;
+			};
+		};
+		FAC89F7E4FB5D011E5D4C1D5 /* XCRemoteSwiftPackageReference "median-icons" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "median.median-icons";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3B9567D0A46ED08B9294425A /* GoNativeCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = GoNativeCore;
+		};
+		5925F1CAF5C8979241068E94 /* MedianIcons */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MedianIcons;
+		};
+		7F337735480F92A8986E9033 /* ZipArchive */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ZipArchive;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F9AE78B2C6897FBAB76EE420 /* Project object */;
+}
